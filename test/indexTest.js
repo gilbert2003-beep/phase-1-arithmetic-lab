@@ -7,7 +7,8 @@ describe('index.js', function() {
       expect(num1).to.be.a('number')
       expect(num2).to.be.a('number')
       expect(multiply).to.eq(62)
-    });
+    });var max = Math.max(1, 2, 3, 20); // Math.max() returns the largest of zero or more numbers; you can pass any number of arguments to it
+                          
   });
   describe('random', function() {
     it("generates a random integer greater than 0", function() {
